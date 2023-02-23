@@ -103,7 +103,7 @@ body {
     border-radius: 50%;
 }
 
-.cell.x, .cell.circle, {
+.cell.x, .cell.circle {
     cursor: not-allowed;
 }
 
@@ -152,4 +152,8 @@ body {
     color: white;
     font-size: 2.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.show-winning-message {
+    display:flex;
 }
